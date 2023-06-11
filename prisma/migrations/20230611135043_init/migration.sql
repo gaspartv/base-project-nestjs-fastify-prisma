@@ -1,9 +1,3 @@
--- CreateEnum
-CREATE TYPE "Languages" AS ENUM ('EN_US', 'PT_BR');
-
--- CreateEnum
-CREATE TYPE "CharacterTypes" AS ENUM ('MAIN', 'BOMB', 'MAKER', 'NEWCOMER');
-
 -- CreateTable
 CREATE TABLE "users" (
     "id" UUID NOT NULL,
